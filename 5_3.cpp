@@ -24,15 +24,6 @@ void Dp()
         }
     }
 
-    // for (int i = n; i >= 1; i--)
-    // {
-    //     for (int j = 1; j <= m; j++)
-    //     {
-    //         printf("%4d", Ans[i][j]);
-    //     }
-    //     puts("");
-    // }
-
     printf("%d\n", Ans[n][m]);
 }
 
