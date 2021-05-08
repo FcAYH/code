@@ -18,6 +18,7 @@ public:
     Point &operator=(const Point &t)
     {
         this->x = t.x, this->y = t.y;
+        return *this;
     }
 
     void print() { printf("(%d, %d)\n", this->x, this->y); }
